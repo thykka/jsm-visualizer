@@ -2,15 +2,21 @@
 
 * Install graphviz with:
 
-  ```$ brew install graphviz```
+  ```sh
+  $ brew install graphviz
+  ```
 
 * Install dependencies with
 
-  ```$ npm i```
+  ```sh
+  $ npm i
+  ```
 
 * Copy your FSM config into a JSON file, then run
 
-  ```$ npm start myFSM.json```
+  ```sh
+  $ npm start myFSM.json
+  ```
 
 ## Notes
 
