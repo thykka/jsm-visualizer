@@ -1,14 +1,3 @@
-// Usage
-
-// Install graphviz with:
-// $ brew install graphviz
-
-// Install dependencies with
-// $ npm i
-
-// Copy your FSM config into a JSON file, then run
-// $ npm start myFSM.json
-
 const StateMachine = require('javascript-state-machine');
 const visualize = require('javascript-state-machine/lib/visualize');
 const fs = require('fs');
