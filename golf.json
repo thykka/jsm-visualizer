@@ -1,0 +1,12 @@
+{
+  "init": "idle",
+  "transitions": [
+    { "name": "aimLeft",    "from": ["idle", "aimingLeft", "aimingRight"], "to": "aimingLeft" },
+    { "name": "aimRight",   "from": ["idle", "aimingLeft", "aimingRight"], "to": "aimingRight" },
+    { "name": "beginSwing", "from": ["idle", "aimingLeft", "aimingRight"], "to": "swinging" },
+    { "name": "hit",        "from": "swinging", "to": "hitting" },
+    { "name": "move",       "from": "hitting", "to": "moving" },
+    { "name": "stop",       "from": "moving",  "to": "idle" },
+    { "name": "wait",       "from": ["aimingLeft", "aimingRight"], "to": "idle" }
+  ]
+}

@@ -1,0 +1,9 @@
+{
+  "init": "idle",
+  "transitions": [
+    { "name": "shoot", "from": ["idle", "aimingLeft", "aimingLeft"], "to": "shooting" },
+    { "name": "aimLeft", "from": ["idle", "aimingRight"], "to": "aimingLeft" },
+    { "name": "aimRight", "from": ["idle", "aimingLeft"], "to": "aimingRight" },
+    { "name": "wait", "from": ["aimingLeft", "aimingRight", "shooting"], "to": "idle" }
+  ]
+}
